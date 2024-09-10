@@ -139,7 +139,6 @@ body {
   flex-direction: row;
   gap: 80.55px;
   padding: 60px 32px;
-  width: 1440px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -189,6 +188,76 @@ body {
 .boys-photo {
   width: 525.45px;
   height: 572px;
+}
+
+
+
+.container-mytestimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 80px;
+  gap: 20px;
+}
+
+.section-testimonial {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  gap: 24px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.084);
+  border-radius: 20px;
+}
+
+.text-testimonial {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--zinc-500);
+  width: 290px;
+}
+
+.sectionstestimonal {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  padding: 40px 24px;
+}
+
+.icons {
+  width: 114px;
+  height: 114px;
+}
+
+.designersname {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--primary-neutral);
+}
+
+.designer {
+  font-weight: 500;
+}
+
+.line {
+  width: 120px;
+  height: 2px;
+  background-color: var(--primary-black);
+}
+
+.section-testimonial:hover {
+  background-color: var(--primary-black);
+}
+
+.section-testimonial:hover .line {
+  background: var(--primary-white);
+}
+
+.section-testimonial:hover .text-testimonial,
+.section-testimonial:hover .designersname {
+  color: var(--primary-white);
 }
 
 
