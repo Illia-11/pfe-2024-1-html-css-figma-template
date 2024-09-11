@@ -262,7 +262,40 @@ body {
 
 
 
+.footer {
+  background-color: var(--primary-black);
+  padding: 24px 80px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+}
 
+.personal {
+  color: var(--primary-white);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin: 8px 0 8px 12px;
+}
+
+.divfooter {
+  gap: 12px;
+  position: relative;
+}
+
+.footer-text {
+  color: var(--primary-white);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.text-left {
+  position: absolute;
+  right: 0;
+}
 
 
 
