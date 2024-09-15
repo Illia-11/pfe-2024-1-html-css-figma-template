@@ -132,8 +132,6 @@ body {
   border-color: black;
 }
 
-
-
 .container-aboutme {
   display: flex;
   flex-direction: row;
@@ -188,8 +186,6 @@ body {
   width: 525.45px;
   height: 572px;
 }
-
-
 
 .container-mytestimonial {
   display: flex;
@@ -259,8 +255,6 @@ body {
   color: var(--primary-white);
 }
 
-
-
 .footer {
   background-color: var(--primary-black);
   padding: 24px 80px;
@@ -301,8 +295,6 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-
-
 
 .container-letstalk {
   display: flex;
@@ -511,9 +503,6 @@ body {
     text-align: center;
   }
 
-
-
-
   .container-mytestimonial {
     display: flex;
     flex-direction: column;
@@ -544,8 +533,6 @@ body {
     font-weight: 900;
   }
     
-
-
 
 .information-letstalk {
   max-width: 450px;
@@ -602,8 +589,6 @@ body {
     flex-direction: column;
     gap: 12px;
   }
-
-
 
   .footer {
     padding: 20px 16px;
